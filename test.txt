@@ -1,0 +1,50 @@
+    <form method='post' enctype="multipart/form-data">
+        {% csrf_token %}
+        <table class="center">
+            <tr>
+                <th><img src="../media/images/img0.jpg" alt="Girl in a jacket" width="500" height="600"></th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="block block-callout primary">
+                        <h2 id="html-developer-job-description-template">HTML Developer Job Description Template</h2>
+                        <p>We are looking for an experienced HTML developer to oversee the design, coding, and
+                            implementation of website projects for our clients. In this role, you will be required to
+                            collaborate with Website Designers on the initial web design, write the code, ensure
+                            cross-platform compatibility, and provide user support.</p>
+                        <p>To be successful as an HTML developer, you should have a good eye for detail and excellent
+                            knowledge of front-end technologies. Ultimately a top-notch HTML developer should be
+                            proficient in web design, a master coder, and someone with the skills to provide user
+                            support.</p>
+                        <h3 id="html-developer-responsibilities">HTML Developer Responsibilities:</h3>
+                        <ul>
+                            <li>Meeting with Web designers to discuss project design and layout.</li>
+                            <li>Coding the entire HTML site from end to end.</li>
+                            <li>Debugging code and front-end web applications.</li>
+                            <li>Ensuring cross-platform compatibility.</li>
+                            <li>Troubleshooting application errors.</li>
+                            <li>Conducting website performance and usability tests.</li>
+                            <li>Meeting publication deadlines.</li>
+                            <li>Providing user support.</li>
+                        </ul>
+                        <h3 id="html-developer-requirements">HTML Developer Requirements:</h3>
+                        <ul>
+                            <li>Bachelor's degree in computer science, computer engineering, MIS, or similar.</li>
+                            <li>At least 3 years' experience as an HTML Developer.</li>
+                            <li>In-depth knowledge of front-end coding languages including HTML, CSS, JavaScript, and
+                                XML.</li>
+                            <li>Ability to troubleshoot coding and application errors.</li>
+                            <li>Knowledge of web design and user application requirements.</li>
+                            <li>Ability to meet strict publication deadlines.</li>
+                            <li>Excellent communication and interpersonal skills.</li>
+                            <li>Strong attention to detail.</li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>{{form.as_p}}</td>
+            </tr>
+        </table>
+
+        <input type="submit" value="Submit">
