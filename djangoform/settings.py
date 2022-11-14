@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'PythonGuides.urls'
+ROOT_URLCONF = 'djangoform.urls'
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'PythonGuides.wsgi.application'
+WSGI_APPLICATION = 'djangoform.wsgi.application'
 
 
 # Database
